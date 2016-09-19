@@ -1,0 +1,8 @@
+<section class="weather-search">
+    <label for="city">City</label>
+    <input #city type="text" id="city" required (keyup.enter)="onSubmit(city.value)" placeholder="Search City" (input)="onSearchCity(city.value)" >
+    <button type="submit" (click)="onSubmit(city.value)" >Add City</button>
+    <div>
+        <span class="info">City found : </span>{{data.name}}
+    </div>
+</section>

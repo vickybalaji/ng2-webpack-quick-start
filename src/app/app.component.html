@@ -1,0 +1,10 @@
+<main>
+    <h1>Hey, Hello, Hi !!! Welcome to my dev works</h1>
+</main>
+<div class="ui top attached tabular menu">
+    <a routerLink="/weather" (click)="changeSelectedTab('weather')"><div class="item" [ngClass]="selectedTab == 'weather' ? 'active' : ''">Weather</div></a>
+    <a routerLink="/my-iframe" (click)="changeSelectedTab('my-iframe')"><div class="item" [ngClass]="selectedTab == 'my-iframe' ? 'active' : ''">My Iframe</div></a>
+</div>
+<div class="ui bottom attached active tab segment" style="min-height: 500px;">
+    <router-outlet></router-outlet>
+</div>
