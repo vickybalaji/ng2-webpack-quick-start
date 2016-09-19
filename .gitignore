@@ -31,3 +31,8 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+#Others
+.browse.VC.db
+.browse.VC.db-shm
+.browse.VC.db-wal
