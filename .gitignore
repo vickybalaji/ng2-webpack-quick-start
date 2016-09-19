@@ -14,6 +14,7 @@
 .classpath
 *.launch
 .settings/
+.vscode/
 
 # misc
 /.sass-cache
@@ -32,7 +33,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-#Others
-.browse.VC.db
-.browse.VC.db-shm
-.browse.VC.db-wal
+
